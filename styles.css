@@ -1,0 +1,135 @@
+/* Basic Body & Typography Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* Header & Navigation */
+header {
+    background: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #DA291C; /* A shade of red, inspired by the Spanish flag */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+nav a {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative; /* This is key to positioning text over the image */
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 60vh; /* 60% of the viewport height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block;
+}
+
+.hero-text {
+    /* This positions the text in the middle of the hero section */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+.excursion-banner {
+    display: block;
+    position: relative;
+    overflow: hidden;     
+}
+
+.excursion-banner figure {
+    margin: 0;
+    position: relative;
+    height: 300px; 
+}
+
+.excursion-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+h2 {
+    font-size: 4rem;
+}
