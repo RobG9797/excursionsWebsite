@@ -4,7 +4,11 @@ body {
     margin: 0;
     line-height: 1.6;
     color: #333;
-    background-color: beige;
+    background-color: #ebdddd;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 a {
