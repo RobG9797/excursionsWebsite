@@ -4,6 +4,7 @@ body {
     margin: 0;
     line-height: 1.6;
     color: #333;
+    background-color: beige;
 }
 
 a {
@@ -19,9 +20,10 @@ a {
 
 /* Header & Navigation */
 header {
-    background: #fff;
+    background-color: #f1e9e9;
     padding: 1rem 0;
-    border-bottom: 1px solid #eee;
+    
+    
 }
 
 header .container {
@@ -32,7 +34,10 @@ header .container {
 
 header h1 {
     margin: 0;
-    color: #DA291C; /* A shade of red, inspired by the Spanish flag */
+    color: #640211; /* A shade of red, inspired by the Spanish flag */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 
 nav ul {
@@ -123,7 +128,6 @@ figcaption {
     width: 100%;
     height: 100%;
     color: #fff;
-    border: 2px solid red;
     background-color: rgba(0, 0, 0, 0.35);
     display: flex;
     align-items: center;
@@ -132,4 +136,33 @@ figcaption {
 
 h2 {
     font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
+
+.booking-button {
+    background-color: #640211;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-button:hover {
+    background-color: #4a0108;
+}
+
+.banner:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+
